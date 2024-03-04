@@ -1,0 +1,6 @@
+artifactId: quay.io/opsmxpublic/ubi8-fiat-cve:1.30.11107 
+env:
+  JAVA_OPTS: "-XX:MaxRAMPercentage=100.0"
+kubernetes:
+  podAnnotations:
+    moniker.spinnaker.io/application: spin
